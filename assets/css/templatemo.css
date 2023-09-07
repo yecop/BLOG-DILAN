@@ -189,3 +189,15 @@ body, ul, li, p, a, label, input, div {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+
+.test-image {
+  position: relative;
+}
+
+.test-text {
+  position: absolute;
+  top: 42%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
