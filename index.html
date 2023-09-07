@@ -189,7 +189,21 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
         
-       
+        <script>
+        (function($){
+          jQuery(document).ready(function($) {
+            $("#acm-slideshow-145 .owl-carousel").owlCarousel({
+              items: 1,
+              loop: true,
+              nav: false,
+              dotsData: true,
+              dots: true,
+              autoplay: true,
+              navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"]
+            });
+          });
+        })(jQuery);
+        </script>
             </div>
     
     <!-- End Banner Hero -->
@@ -419,6 +433,7 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- End Script -->
 </body>
 
