@@ -18,3 +18,7 @@ Custom Css
     display: block;
     margin-top: 0;
 }
+
+.nav-item a, .dropdown-item{
+    font-size: 17px;
+}
