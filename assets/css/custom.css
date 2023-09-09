@@ -2,7 +2,19 @@
 Custom Css
 */
 
-.main-body {
-    margin-top: 2rem;
-    width: 100%;
+.category-name a {
+    background: #333399;
+    font-size: 0.7em !important;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 6.5px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
 }
