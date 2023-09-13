@@ -1,37 +1,33 @@
-import { Contact } from "./pages/contact.js";
+import { ContactMap, Contact } from "./pages/contact.js";
 import { Home } from "./pages/home.js";
-
-
-const searchRoute = (route) => {
-
-    const defaultRoute = "",
-    routes = {
-        "": Home(),
-        "#/": Home(),
-        "#/": "",
-        "#/": "",
-        "#/": "",
-        "#/": "",
-        "#/contact": Contact(),
-    }
-
-    return routes[route] || defaultRoute;
-
-}
 
 export function Router() {
 
     const d = document;
+    const bodyContent = d.getElementById('body-content');
     let hash = location.hash;
 
     console.log('el hash es:' + hash);
 
-    var toRender = searchRoute(hash);
+    //limpiar contenido
+    bodyContent.innerHTML = null;
 
-    d.getElementById('body-content').innerHTML = null;
-    d.getElementById('body-content').appendChild(toRender);
+    if (!hash || hash === '#/') {
+        bodyContent.appendChild(Home());
+    } else if (hash === '#/mision-vision') {
 
-    console.log(d.getElementById('mapid'))
-    var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
+    } else if (hash === '#/importancia-ambiental') {
+       
+    } else if (hash === '#/contrato-de-condiciones') {
+        
+    } else if (hash === '#/valores-corporativos') {
+        
+    } else if (hash === '#/contacto') {
+        bodyContent.appendChild(Contact());
+        ContactMap();
+    } else {
+        console.log('505')
+    }
+    
 
 }

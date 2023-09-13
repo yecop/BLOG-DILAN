@@ -9,7 +9,7 @@ export function Header() {
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="#/">
                 Zay
             </a>
 
@@ -21,12 +21,12 @@ export function Header() {
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between ms-lg-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Inicio</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">¿Quienes somos?</a>
                             <div class="dropdown-menu">
-                                <a href="mision_vision.html" class="dropdown-item">Misión y Visión</a>
-                                <a href="#" class="dropdown-item">Valores corporativos</a>
-                                <a href="#" class="dropdown-item">Importancia ambiental</a>
-                                <a href="#" class="dropdown-item">Contrato de condiciones</a>
+                                <a href="#/mision-vision" class="dropdown-item">Misión y Visión</a>
+                                <a href="#/valores-corporativos" class="dropdown-item">Valores corporativos</a>
+                                <a href="#/importancia-ambiental" class="dropdown-item">Importancia ambiental</a>
+                                <a href="#/contrato-de-condiciones" class="dropdown-item">Contrato de condiciones</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -51,16 +51,16 @@ export function Header() {
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">DINC</a>
+                            <a class="nav-link" href="#">DINC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Toneladas aprovechadas</a>
+                            <a class="nav-link" href="#">Toneladas aprovechadas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Rutas y horarios</a>
+                            <a class="nav-link" href="#">Rutas y horarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#/contact">Contacto</a>
+                            <a class="nav-link" href="#/contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>

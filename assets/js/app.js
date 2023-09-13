@@ -9,6 +9,10 @@ export function App() {
 
     const $root = document.getElementById('root');
 
+    //limpiar contenido
+    $root.innerHTML = null;
+    
+    //Carga de contenido
     $root.appendChild(TopNav());
     $root.appendChild(Header());
     $root.appendChild(BodyContent());
