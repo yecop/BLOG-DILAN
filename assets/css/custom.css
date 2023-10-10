@@ -2,6 +2,42 @@
 Custom Css
 */
 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../webfonts/Montserrat-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../webfonts/Montserrat-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../webfonts/Montserrat-SemiBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../webfonts/Montserrat-Medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+p {
+  font-family: 'Montserrat-Regular' !important;
+}
+
+.montserrat_bold {
+  font-family: 'Montserrat-Bold' !important;
+}
+
+.montserrat_semibold {
+  font-family: 'Montserrat-SemiBold' !important;
+}
+
+.montserrat_medium {
+  font-family: 'Montserrat-Medium' !important;
+}
+
 .category-name a {
     background: #333399;
     font-size: 0.7em !important;

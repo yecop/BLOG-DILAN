@@ -1,6 +1,7 @@
 import { ContactMap, Contact } from "./pages/contact.js";
 import { Home } from "./pages/home.js";
 import { Routes } from "./pages/routes.js";
+import { Dinc } from "./pages/dinc.js";
 
 export function Router() {
 
@@ -25,6 +26,8 @@ export function Router() {
 
     } else if (hash === '#/rutas-horarios') {
         bodyContent.appendChild(Routes());
+    } else if (hash === '#/DINC') {
+       bodyContent.appendChild(Dinc());
     } else if (hash === '#/contacto') {
         bodyContent.appendChild(Contact());
         ContactMap();
