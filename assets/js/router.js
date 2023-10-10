@@ -1,5 +1,6 @@
 import { ContactMap, Contact } from "./pages/contact.js";
 import { Home } from "./pages/home.js";
+import { Routes } from "./pages/routes.js";
 
 export function Router() {
 
@@ -21,7 +22,9 @@ export function Router() {
     } else if (hash === '#/contrato-de-condiciones') {
         
     } else if (hash === '#/valores-corporativos') {
-        
+
+    } else if (hash === '#/rutas-horarios') {
+        bodyContent.appendChild(Routes());
     } else if (hash === '#/contacto') {
         bodyContent.appendChild(Contact());
         ContactMap();
