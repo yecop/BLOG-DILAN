@@ -17,7 +17,9 @@ export function Dinc() {
         <div class="mask">
             <div class="">
                 <div class="text-white">
-                    <h1 class="mb-3">Incentivo a la separación en la Fuente <b>DINC</b></h1>
+                    <span style="font-size:3em">Incentivo a la separación </span> </br>
+                    <span style="font-size:3em">en la Fuente</span>
+                    <span style="font-size:3em" class="montserrat_bold">DINC</span>
                 </div>
             </div>
         </div>
@@ -49,11 +51,11 @@ export function Dinc() {
         <div class="row my-2">
             <div class="col">
                 <span class="" style="font-size:2.5rem; color:#fff908; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px"> La separación</span>
-                <span class="" style="font-size:2.5rem"> en la Fuente </span>
-                <span class="montserrat_bold" style="font-size:2.5rem"> DINC </span>
+                <span class="" style="font-size:2.5rem; color:#3f1978"> en la Fuente </span>
+                <span class="montserrat_bold" style="font-size:2.5rem; color:#3f1978"> DINC </span>
             </div>
         </div>
-        <div class="row my-2">
+        <div class="row">
             <div class="col">
                 <p>
                     Artículo 2.3.2.5.2.2.4.Incentivo a la separación en la fuente (DINC). Aquellas macrorrutas de recolección 
@@ -67,12 +69,23 @@ export function Dinc() {
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col" style="background-color: red">
-                Column
+        
+        <div class="row my-5">
+            <div class="col-xl-6 col-sm-12" style="padding-top: 35px">
+                <div style="position: relative; width: 100%;">
+                    <img style="max-width:100%; height: 250px; padding-left:15%;" src="assets/img/1_numero.png">
+                    <div style="position: absolute; top: 50%; width:70%; left: 30%; transform: translateY(-50%); text-align: left; padding: 10px;">
+                        <p class="montserrat_semibold" style="color:#3f1978">La persona prestadora de la actividad de recolección y transporte de residuos no aprovechables en su area de prestación.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col" style="background-color: blue">
-                Column
+            <div class="col-xl-6 col-sm-12" style="padding-top: 35px">
+                <div style="position: relative; width: 100%;">
+                <img style="max-width:100%; height: 250px; padding-left:15%;" src="assets/img/2_numero.png">
+                <div style="position: absolute; top: 50%; width:50%; left: 30%; transform: translateY(-50%); text-align: left; padding: 10px;">
+                        <p class="montserrat_semibold" style="color:#3f1978">Sistema Único de Información (SUI).</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
