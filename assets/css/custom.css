@@ -46,6 +46,9 @@ Custom Css
 p {
   font-family: 'Montserrat-Regular' !important;
 }
+.montserrat_regular {
+  font-family: 'Montserrat-Regular' !important;
+}
 
 .montserrat_bold {
   font-family: 'Montserrat-Bold' !important;

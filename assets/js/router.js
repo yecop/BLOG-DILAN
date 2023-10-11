@@ -3,6 +3,11 @@ import { Home } from "./pages/home.js";
 import { Routes } from "./pages/routes.js";
 import { Dinc } from "./pages/dinc.js";
 import { Usable_material } from "./pages/usable_material.js";
+import { About_us } from "./pages/about_us.js";
+import { Integrity_services } from "./pages/integrity_services.js";
+import { CCU } from "./pages/ccu.js";
+import { Tons_used } from "./pages/tons_used.js";
+import { PQR } from "./pages/PQR.js";
 
 export function Router() {
 
@@ -17,23 +22,24 @@ export function Router() {
 
     if (!hash || hash === '#/') {
         bodyContent.appendChild(Home());
-    } else if (hash === '#/mision-vision') {
-
-    } else if (hash === '#/importancia-ambiental') {
-
+    } else if (hash === '#/quienes-somos') {
+        bodyContent.appendChild(About_us());
     } else if (hash === '#/material-aprovechable') {
         bodyContent.appendChild(Usable_material());
-    } else if (hash === '#/contrato-de-condiciones') {
-        
-    } else if (hash === '#/valores-corporativos') {
-
+    } else if (hash === '#/integridad-servicios') {
+        bodyContent.appendChild(Integrity_services());
+    } else if (hash === '#/DINC') {
+        bodyContent.appendChild(Dinc());
+    } else if (hash === '#/CCU') {
+        bodyContent.appendChild(CCU());
+    } else if (hash === '#/toneladas-aprovechadas') { 
+        bodyContent.appendChild(Tons_used());
     } else if (hash === '#/rutas-horarios') {
         bodyContent.appendChild(Routes());
-    } else if (hash === '#/DINC') {
-       bodyContent.appendChild(Dinc());
-    } else if (hash === '#/contacto') {
-        bodyContent.appendChild(Contact());
         ContactMap();
+    } else if (hash === '#/PQR') {
+        bodyContent.appendChild(PQR());
+        // ContactMap();
     } else {
         console.log('505')
     }
