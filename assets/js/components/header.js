@@ -24,7 +24,7 @@ export function Header() {
                             <a class="nav-link" href="#">¿Quienes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Material aprovechable</a>
+                            <a class="nav-link" href="#/material-aprovechable">Material aprovechable</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Servicios</a>

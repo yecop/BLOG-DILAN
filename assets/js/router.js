@@ -2,6 +2,7 @@ import { ContactMap, Contact } from "./pages/contact.js";
 import { Home } from "./pages/home.js";
 import { Routes } from "./pages/routes.js";
 import { Dinc } from "./pages/dinc.js";
+import { Usable_material } from "./pages/usable_material.js";
 
 export function Router() {
 
@@ -19,7 +20,9 @@ export function Router() {
     } else if (hash === '#/mision-vision') {
 
     } else if (hash === '#/importancia-ambiental') {
-       
+
+    } else if (hash === '#/material-aprovechable') {
+        bodyContent.appendChild(Usable_material());
     } else if (hash === '#/contrato-de-condiciones') {
         
     } else if (hash === '#/valores-corporativos') {
