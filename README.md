@@ -1,1 +1,2 @@
 # BLOG-DILAN
+# Esta pagina fue trabajada con sudor y lagrimas dos dias antes de la entrega, se realizo todos los cambios necesarios para su funcionamiento y se trasnocho, agradecemos al host comprado pues no se pudo acceder a los puertos, por lo que se tomo la desicion de utilizar un host alterno. La pagina cumple su funcionamiento de mostrar los documentos de la manera solicitida pero sin todos los diseños solicitados (entregados pasado un mes). muchas gracias. 
