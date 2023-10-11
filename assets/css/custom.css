@@ -2,6 +2,27 @@
 Custom Css
 */
 
+.card {
+  padding: 20px;
+}
+
+.col-md-6 {
+  margin-bottom: 15px;
+}
+
+.img-fluid {
+  max-width: auto;
+  height: auto;
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url('../webfonts/Montserrat-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
@@ -299,6 +320,10 @@ main#carousel {
       transform: rotateY(-360deg);
     }
   }
+
+
+
+  
 
 
   
