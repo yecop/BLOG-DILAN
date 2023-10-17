@@ -12,7 +12,7 @@
       $message = "Saludos, mi nombre es ".$name."\r\n\r\n\r\n\r\n".$message."\r\n\r\n\r\n\r\n"."mis datos de contacto son los siguientes: "."\r\n"."Email: ".$email ;
       $headers = "From:" . $from;
       mail($to,$subject,$message, $headers);
-      
+      header("Location: https://pruebas-enlace.shop/index.html#/PQR");
     }
   };
 ?>
