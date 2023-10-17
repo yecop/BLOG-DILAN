@@ -41,7 +41,7 @@ export function Router() {
         bodyContent.appendChild(PQR());
         // ContactMap();
     } else {
-        console.log('505')
+        console.log('404')
     }
     
 
