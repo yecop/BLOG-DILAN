@@ -43,15 +43,12 @@
         });
     </script>
     <script>
-$(document).ready(function() {
-    var currentSlide = 0;
-    var nslide = 1;
-    var carousel = document.querySelector('.carousel5');
-    carousel.style.animation = 'slide 30s infinite';
         
- $(".changeslidemas").click(function () {
-    
-            currentSlide += nslide;
+        var currentSlide = 0;
+        function changeSlide(n) {
+            
+            var carousel = document.querySelector('.carousel5');
+            currentSlide += n;
             if (currentSlide < 0) {
                 currentSlide = 2;
             } else if (currentSlide > 2) {

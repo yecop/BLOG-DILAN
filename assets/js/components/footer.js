@@ -34,7 +34,7 @@ export function Footer() {
                         </p>
                         <p class="">
                             <img src="assets/svg/phone.svg" alt="">
-                            <small>+57 316 441 44 52</small>
+                            <small>+57 3143953209</small>
                         </p>
             </div>
             <div class="col"></div>
