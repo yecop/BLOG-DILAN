@@ -20,7 +20,11 @@ Custom Css
   color: white;
   padding: 5px 10px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px;
+}
+@font-face {
+  font-family: 'sego';
+  src: url('../webfonts/SEGO.ttf') format('truetype');
 }
 
 @font-face {
@@ -48,6 +52,9 @@ p {
 }
 .montserrat_regular {
   font-family: 'Montserrat-Regular' !important;
+}
+.sego{
+  font-family: 'sego' !important;
 }
 
 .montserrat_bold {

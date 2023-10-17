@@ -4,13 +4,28 @@ export function About_us() {
 
     $about_us.innerHTML =
     `
+    <div class="p-5 text-center bg-image rounded-3 d-flex justify-content-center align-items-center" style="
+        background-image: url('assets/img/hero_image_dinc.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 60vh;">
+        <div class="mask">
+            <div class="">
+                <div class="text-white">
+                    <span style="font-size:3em" class="montserrat_bold">¿Quiénes somos?</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="my-3">
         <div class="card">
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Nuestra historia:</h1>
+                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
+                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
                         </div>
                         <p class="card-text">ORA MARIANIS nace con el propósito de cambiar la percepción del reciclaje y
                             transformar vidas, especialmente las de los recicladores asociados que carecen
@@ -35,7 +50,8 @@ export function About_us() {
                     </div>
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Nuestra misión:</h1>
+                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
+                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">MISIÓN</span>
                         </div>
                         <p class="card-text">Contribuir de manera directa la preservación del medio ambiente a través de la
                             recuperación de materiales reciclables. De la misma manera, mediante el
@@ -53,7 +69,8 @@ export function About_us() {
                 <div class="row">
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Nuestra visión:</h1>
+                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
+                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">VISIÓN</span>
                         </div>
                         <p class="card-text">A mediano plazo, ORA MARIANIS ESP será una Asociación líder, que, a través de
                             la separación en la fuente, la pre-transformación y transformación de los
@@ -80,7 +97,8 @@ export function About_us() {
                     </div>
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Nuestros valores:</h1>
+                        <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTROS </span> <br>
+                        <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">VALORES</span>
                         </div>
                         <p class="card-text">Nuestra empresa se fundamenta en sólidos valores que nos definen y guían en
                             cada acción que emprendemos. La pulcritud es el pilar que guía nuestros

@@ -4,16 +4,20 @@ export function Tons_used() {
 
     $tons_used.innerHTML =
     `
-    <section class="bg-success py-5">
-    <div class="container">
+    <section class="py-5" style="background-image:url('assets/img/hero_image_dinc.jpg');">
+    <div class="container align-items-center">
         <div class="row align-items-center py-5">
-            <div class="col-md-8 text-white">
-                <h1>Consulte aqui las toneladas aprovechadas</h1>  
-                <a class="btn-purple" href="toneladas_aprovechadas.html" download="toneladas_aprovechadas.xlsx">Consulte aquí</a>
+            <div class="col text-white">
+            <br>
+                <br>
+            <center>
+                <font size="6">Consulte aqui las</font>
+                <h1 style="color:yellow;">TONELADAS APROVECHADAS</h1> <br>
+                <a class="btn-purple" href="assets/docs/toneladas_aprovechadas.xlsx" download="toneladas_aprovechadas.xlsx">Consulte aquí</a>
+            </center>              
+                <br>
+                <br>
             </div>
-                <div class="col-md-4">
-                    <img src="assets/img/logom_2.png" alt="About Hero" width="150">
-                </div>
             </div>
         </div>
     </section>

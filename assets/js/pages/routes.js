@@ -6,6 +6,20 @@ export function Routes() {
 
     $routes.innerHTML =
     `
+    <div class="p-5 text-center bg-image rounded-3 d-flex justify-content-center align-items-center" style="
+        background-image: url('assets/img/hero_image_dinc.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 60vh;">
+        <div class="mask">
+            <div class="">
+                <div class="text-white">
+                <span style="font-size:3em" class="montserrat_bold">Rutas</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -24,12 +38,7 @@ export function Routes() {
     </div>
 
 
-    <!-- Start Content Page -->
-    <div class="container-fluid bg-light py-5">
-        <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Rutas y horarios</h1>
-        </div>
-    </div>
+    
 
     <iframe src="https://www.google.com/maps/d/embed?mid=1hQHA1goXAXAAMjLFzmViWilqgjgYn8A&ehbc=2E312F" width="100%" height="480"></iframe>
 

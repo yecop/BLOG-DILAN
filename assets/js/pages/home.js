@@ -7,54 +7,58 @@ export function Home() {
     <div class="carousel-container5">
         <div class="carousel5">
             <div class="carousel5-item">
-                <img src="assets/img/slider_1.jpg" alt="Imagen 1">
+                <img src="assets/img/slider_1.jpg" alt="Imagen 1" height="50%" >
             </div>
             <div class="carousel5-item">
-                <img src="assets/img/slider_2.jpg" alt="Imagen 2">
+                <img src="assets/img/slider_2.jpg" alt="Imagen 2" height="50%" >
             </div>
             <div class="carousel5-item">
-                <img src="assets/img/slider_3.jpg" alt="Imagen 3">
+                <img src="assets/img/slider_3.jpg" alt="Imagen 3" height="50%" >
             </div>
         </div>
     </div>
-    <div id="prev" onclick="changeSlide(-1)">❮</div>
-    <div id="next" onclick="changeSlide(1)">❯</div>
-
-    <div class="container ">
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <img src="assets/img/collage/1.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 1">
-      </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/2.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 2">
-      </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/3.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 3">
-      </div>
+    <div id="prev" class="changeslidemenos">❮</div>
+    <div id="next" class="changeslidemas">❯</div>
+    <div class="mt-5">
+    <br>
+    <br>
+      <center>
+        <span class="montserrat_regular" style="color:#410677;font-size:1em;">MOMENTOS</span> <br>
+        <span style="font-size:4em;color:#410677; margin-top:-300px;" class="sego">marianis</span>
+      </center>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <img src="assets/img/collage/4.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 4">
+    <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/1.jpg" class="img-fluid" alt="Imagen 1" width="300px">
       </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/5.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 5">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/2.jpg" class="img-fluid" alt="Imagen 2" width="300px">
       </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/6.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 6">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/3.jpg" class="img-fluid" alt="Imagen 3" width="300px">
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <img src="assets/img/collage/7.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 7">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/4.jpg" class="img-fluid" alt="Imagen 4" width="300px">
       </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/8.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 8">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/5.jpg" class="img-fluid" alt="Imagen 5" width="300px">
       </div>
-      <div class="col-md-4">
-        <img src="assets/img/collage/9.jpg" style="max-width:100px; max-heigth:100px;" alt="Imagen 9">
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/6.jpg" class="img-fluid" alt="Imagen 6" width="300px">
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/7.jpg" class="img-fluid" alt="Imagen 4" width="300px">
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/8.jpg" class="img-fluid" alt="Imagen 5" width="300px">
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img src="assets/img/collage/9.jpg" class="img-fluid" alt="Imagen 6" width="300px">
       </div>
     </div>
   </div>
+  <br>
     `
     return $home;
 

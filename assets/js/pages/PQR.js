@@ -4,6 +4,20 @@ export function PQR() {
 
     $pqr.innerHTML =
     `
+    <div class="p-5 text-center bg-image rounded-3 d-flex justify-content-center align-items-center" style="
+        background-image: url('assets/img/hero_image_dinc.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 60vh;">
+        <div class="mask">
+            <div class="">
+                <div class="text-white">
+                <span style="font-size:3em" class="montserrat_bold">PQR</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Start Contact -->
     <div class="container py-5">
         <div class="row py-5">

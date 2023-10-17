@@ -16,6 +16,9 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
     <!-- Load map styles -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     <!-- Start Top Nav -->
@@ -40,12 +43,15 @@
         });
     </script>
     <script>
+$(document).ready(function() {
+    var currentSlide = 0;
+    var nslide = 1;
+    var carousel = document.querySelector('.carousel5');
+    carousel.style.animation = 'slide 30s infinite';
         
-        var currentSlide = 0;
-        function changeSlide(n) {
-            
-            var carousel = document.querySelector('.carousel5');
-            currentSlide += n;
+ $(".changeslidemas").click(function () {
+    
+            currentSlide += nslide;
             if (currentSlide < 0) {
                 currentSlide = 2;
             } else if (currentSlide > 2) {
@@ -53,10 +59,26 @@
             }
             carousel.style.animation = 'none';
             setTimeout(() => {
-                carousel.style.animation = 'slide 7s infinite';
+                
                 carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
             }, 0);
-        }
+  });
+  $(".changeslidemenos").click(function () {
+            currentSlide -= nslide;
+            if (currentSlide < 0) {
+                currentSlide = 2;
+            } else if (currentSlide > 2) {
+                currentSlide = 0;
+            }
+            carousel.style.animation = 'none';
+            setTimeout(() => {
+                // carousel.style.animation = 'slide 30s infinite';
+                carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+            }, 0);
+  });
+});
+       
+       
     </script>
     <script type="module" src="assets/js/index.js"></script>
     <script src="assets/js/jquery-1.11.0.min.js"></script>

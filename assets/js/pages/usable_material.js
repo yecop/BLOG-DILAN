@@ -3,6 +3,21 @@ export function Usable_material(){
 
     $usable_material.innerHTML =
     `
+    <div class="p-5 text-center bg-image rounded-3 d-flex justify-content-center align-items-center" style="
+        background-image: url('assets/img/hero_image_dinc.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 60vh;">
+        <div class="mask">
+            <div class="">
+                <div class="text-white">
+                <span style="font-size:3em" class="montserrat_bold">Material</span><br>
+                <span style="font-size:3em" class="montserrat_bold">Aprovechable</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
      <div class="my-3">
         <div class="card">
             <div class="card-body">
@@ -12,7 +27,9 @@ export function Usable_material(){
                     </div>
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Plástico:</h1>
+                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px;">
+                                Plástico
+                            </span>
                         </div>
                         <p class="card-text">El proceso de reciclaje de plásticos consta de varias etapas. En primer lugar, se depositan los
                             envases en el contenedor correspondiente y se trasladan a una planta de selección donde se
@@ -33,7 +50,9 @@ export function Usable_material(){
                 <div class="row">
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Metales:</h1>
+                        <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px;">
+                            Metales
+                        </span>
                         </div>
                         <p class="card-text">El proceso de reciclado empieza cuando el usuario separa sus residuos. Luego,
                             se recogen y clasifican los distintos metales, para procesarlos por separado. Las
@@ -57,7 +76,9 @@ export function Usable_material(){
                     </div>
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Vidrio:</h1>
+                        <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px;">
+                            Vidrio
+                        </span>
                         </div>
                         <p class="card-text">El vidrio es un material que independientemente de la cantidad de veces que
                             se recicle, mantiene el 100% de las propiedades iniciales. La cadena de reciclaje
@@ -75,7 +96,9 @@ export function Usable_material(){
                 <div class="row">
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Madera:</h1>
+                        <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px;">
+                            Madera
+                        </span>
                         </div>
                         <p class="card-text">La madera se recicla en mayor medida en la industria, aunque no es común en
                             los hogares. La falta de contenedores específicos se debe a su menor
@@ -102,7 +125,9 @@ export function Usable_material(){
                     </div>
                     <div class="col-md-6">
                         <div class="category-name my-1">
-                            <h1>Textil:</h1>
+                        <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px;">
+                            Textil
+                        </span>
                         </div>
                         <p class="card-text">Al igual que ocurre con el vidrio, el papel u otros materiales, la ropa también se
                             puede reciclar con el objetivo de dar un nuevo uso al material. Sin embargo, en
