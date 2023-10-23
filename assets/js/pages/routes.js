@@ -37,10 +37,9 @@ export function Routes() {
         </div>
     </div>
 
-
-    
-
-    <iframe src="https://www.google.com/maps/d/embed?mid=1hQHA1goXAXAAMjLFzmViWilqgjgYn8A&ehbc=2E312F" width="100%" height="480"></iframe>
+    <div style="margin-top: 15vh; margin-bottom:15vh">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1hQHA1goXAXAAMjLFzmViWilqgjgYn8A&ehbc=2E312F" width="100%" height="480"></iframe>
+    </div>
 
     `
 
