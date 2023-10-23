@@ -6,10 +6,6 @@ Custom Css
   padding: 20px;
 }
 
-.col-md-6 {
-  margin-bottom: 15px;
-}
-
 .img-fluid {
   max-width: auto;
   height: auto;
@@ -50,6 +46,7 @@ Custom Css
 p {
   font-family: 'Montserrat-Regular' !important;
 }
+
 .montserrat_regular {
   font-family: 'Montserrat-Regular' !important;
 }
@@ -67,6 +64,28 @@ p {
 
 .montserrat_medium {
   font-family: 'Montserrat-Medium' !important;
+}
+
+.divided-info-left {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.divided-info-right {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.divided-info-text {
+  width: 61%;
+}
+
+.divided-info-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .category-name a {

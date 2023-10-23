@@ -21,46 +21,32 @@ export function Header() {
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between ms-lg-auto">
-                        <li class="nav-item">
-                        </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item"></li>
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/quienes-somos">Quienes <br> somos</a>
-                            
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/material-aprovechable">Materiales <br> aprovechables</a>
                         </li>
-
-                        <li class="nav-item dropdown">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/integridad-servicios">Integridad de <br> Servicio Publico</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/DINC">DINC</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/CCU">CCU</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/toneladas-aprovechadas">Toneladas <br> aprovechadas</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/rutas-horarios">Rutas</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-flex align-items-center">
                             <a class="nav-link" href="#/PQR">PQR</a>
                         </li>
-
                     </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>    
                 </div>
             </div>
         </div>
