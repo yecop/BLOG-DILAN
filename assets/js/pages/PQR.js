@@ -42,7 +42,7 @@ export function PQR() {
                 </div>
                 <div class="row">
                     <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">Enviar</button>
+                        <button type="submit" name="enviar" class="btn btn-success btn-lg px-3">Enviar</button>
                     </div>
                 </div>
             </form>
