@@ -310,6 +310,22 @@ main#carousel {
     font-size: 2rem;
   }
   
+  .circle_left {
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: -2px;
+  }
+
+  .circle_right {
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    right: -2px;
+  }
+
   
   .carousel__face:nth-child(1) {
     background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");

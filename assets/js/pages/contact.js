@@ -27,15 +27,13 @@ export function Contact() {
     <!-- Start Content Page -->
     <div class="container-fluid bg-light py-5">
         <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Contactanos</h1>
+            <h1 class="h1">Contáctanos</h1>
         </div>
     </div>
 
     <!-- Start Map -->
     <div id="mapid" style="width: 100%; height: 300px;"></div>
     <!-- Ena Map -->
-
-    
     `
 
     return $contact;

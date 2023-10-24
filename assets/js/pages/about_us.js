@@ -25,7 +25,7 @@ export function About_us() {
                     <div style="padding-right:15px">
                         <div>
                             <span class="montserrat_bold" style="font-size: 2rem; color:#3f1978; padding-left: 10px;"> NUESTRA </span>
-                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3rem; line-height: 3rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
                         </div>
                         <p style="margin-bottom: 0; padding-left: 10px; margin-top:5%">ORA MARIANIS nace con el propósito de cambiar la percepción del reciclaje y
                         transformar vidas, especialmente las de los recicladores asociados que carecen
@@ -49,7 +49,7 @@ export function About_us() {
                     <div style="text-align:end; padding-left:15px">
                         <div>
                             <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-right: 10px;"> NUESTRA </span>
-                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">MISIÓN</span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3rem; line-height: 3rem;; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">MISIÓN</span>
                         </div>
                         <p style="margin-bottom: 0; padding-right: 10px; margin-top:5%">Contribuir de manera directa la preservación del medio ambiente a través de la
                         recuperación de materiales reciclables. De la misma manera, mediante el
@@ -65,7 +65,7 @@ export function About_us() {
                     <div style="padding-right:15px">
                         <div>
                             <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-left: 10px;"> NUESTRA </span>
-                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3rem; line-height: 3rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
                         </div>
                         <p style="margin-bottom: 0; padding-left: 10px; margin-top:5%">A mediano plazo, ORA MARIANIS ESP será una Asociación líder, que, a través de
                         la separación en la fuente, la pre-transformación y transformación de los
@@ -91,7 +91,7 @@ export function About_us() {
                     <div style="text-align:end; padding-left:15px">
                         <div>
                             <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-right: 10px;">NUESTROS</span>
-                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">VALORES</span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3rem; line-height: 3rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">VALORES</span>
                         </div>
                         <p style="margin-bottom: 0; padding-right: 10px; margin-top:5%">
                         Nuestra empresa se fundamenta en sólidos valores que nos definen y guían en

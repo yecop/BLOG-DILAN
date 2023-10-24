@@ -13,7 +13,7 @@ export function Footer() {
         <div class="container">
             <div class="row">
                 <div class="col mt-3 mb-5 text-white">
-                    <h1 align="center" class="align-self-center montserrat_regular">Contactanos</h1>
+                    <h1 align="center" class="align-self-center montserrat_regular">Contáctanos</h1>
                 </div>
             </div>
            <div class="row">
