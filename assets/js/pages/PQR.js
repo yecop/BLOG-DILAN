@@ -13,7 +13,7 @@ export function PQR() {
         <div class="mask">
             <div class="">
                 <div class="text-white">
-                <span style="font-size:3em" class="montserrat_bold">PQR</span><br>
+                <span style="font-size:5.5em" class="montserrat_bold">PQR</span><br>
                 </div>
             </div>
         </div>

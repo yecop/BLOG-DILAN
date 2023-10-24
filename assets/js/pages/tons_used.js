@@ -11,7 +11,17 @@ export function Tons_used() {
             <br>
                 <br>
             <center>
-                <font size="6">Consulte aqui las</font>
+            <div class="mask">
+            <div class="">
+                <div class="text-white">
+                <span style="font-size:2.8em" class="montserrat">consulte aqui las</span><br>
+                </div>
+            </div>
+        </div>
+        <div class="mask">
+        <div class="">
+        </div>
+
                 <h1 style="color:yellow;">TONELADAS APROVECHADAS</h1> <br>
                 <a class="btn-purple" href="assets/docs/toneladas_aprovechadas.xlsx" download="toneladas_aprovechadas.xlsx">Consulte aquí</a>
             </center>              

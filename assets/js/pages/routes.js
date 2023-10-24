@@ -15,7 +15,7 @@ export function Routes() {
         <div class="mask">
             <div class="">
                 <div class="text-white">
-                <span style="font-size:3em" class="montserrat_bold">Rutas</span><br>
+                <span style="font-size:5.5em" class="montserrat_bold">Rutas</span><br>
                 </div>
             </div>
         </div>

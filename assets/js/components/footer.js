@@ -34,6 +34,10 @@ export function Footer() {
                                 <img src="assets/svg/phone.svg" alt="">
                                 <small>+57 3143953209</small>
                             </p>
+                            <p class="">
+                            <img src="assets/svg/phone.svg" alt="">
+                            <small>+57 3164414452</small>
+                        </p>
                 </div>
                 <div class="col"></div>
            </div>
