@@ -13,7 +13,7 @@ export function Integrity_services() {
         <div class="mask">
             <div class="">
                 <div class="text-white">
-                <span style="font-size:2.8em" class="montserrat_bold">Integridad de <br> Servicio Publico</span><br>
+                <span style="font-size:2.8em" class="montserrat_bold">Integralidad de <br> Servicio Publico</span><br>
                 </div>
             </div>
         </div>
