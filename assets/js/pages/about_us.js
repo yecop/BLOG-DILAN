@@ -24,10 +24,10 @@ export function About_us() {
                 <div class="divided-info-text">
                     <div style="padding-right:15px">
                         <div>
-                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
-                            <span style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
+                            <span class="montserrat_bold" style="font-size: 2rem; color:#3f1978; padding-left: 10px;"> NUESTRA </span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
                         </div>
-                        <p style="margin-bottom: 0">ORA MARIANIS nace con el propósito de cambiar la percepción del reciclaje y
+                        <p style="margin-bottom: 0; padding-left: 10px; margin-top:5%">ORA MARIANIS nace con el propósito de cambiar la percepción del reciclaje y
                         transformar vidas, especialmente las de los recicladores asociados que carecen
                         de apoyo laboral. A través del reciclaje, llevamos el mensaje de cambio
                         ambiental y humano, transmitiendo el polen de vida como símbolo
@@ -47,11 +47,11 @@ export function About_us() {
             <div class="col-lg-6 divided-info-right" >
                 <div class="divided-info-text">
                     <div style="text-align:end; padding-left:15px">
-                        <div class="my-1">
-                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
-                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">MISIÓN</span>
+                        <div>
+                            <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-right: 10px;"> NUESTRA </span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">MISIÓN</span>
                         </div>
-                        <p style="margin-bottom: 0">Contribuir de manera directa la preservación del medio ambiente a través de la
+                        <p style="margin-bottom: 0; padding-right: 10px; margin-top:5%">Contribuir de manera directa la preservación del medio ambiente a través de la
                         recuperación de materiales reciclables. De la misma manera, mediante el
                         aprovechamiento de dichos materiales, fomentar el mejoramiento integral de
                         las familias de los Asociados.
@@ -64,10 +64,10 @@ export function About_us() {
                 <div class="divided-info-text">
                     <div style="padding-right:15px">
                         <div>
-                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTRA </span> <br>
-                            <span style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">VISIÓN</span>
+                            <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-left: 10px;"> NUESTRA </span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">HISTORIA</span>
                         </div>
-                        <p style="margin-bottom: 0">A mediano plazo, ORA MARIANIS ESP será una Asociación líder, que, a través de
+                        <p style="margin-bottom: 0; padding-left: 10px; margin-top:5%">A mediano plazo, ORA MARIANIS ESP será una Asociación líder, que, a través de
                         la separación en la fuente, la pre-transformación y transformación de los
                         materiales potencialmente reutilizables, contribuirá a la valorización de los
                         residuos sólidos reciclables, siendo reconocidos por la calidad de nuestros
@@ -89,11 +89,12 @@ export function About_us() {
             <div class="col-lg-6 divided-info-right" >
                 <div class="divided-info-text">
                     <div style="text-align:end; padding-left:15px">
-                        <div class="my-1">
-                            <span class="montserrat_bold" style="font-size:1.3rem; color:#3f1978"> NUESTROS </span> <br>
-                            <span class="" style="font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px; padding-right: 10px">VALORES</span>
+                        <div>
+                            <span class="montserrat_bold" style="font-size:1.5rem; color:#3f1978; padding-right: 10px;">NUESTROS</span>
+                            <span class="montserrat_bold" style="display: block; font-size: 3.5rem; line-height: 4rem; width: 100%; color:#ffffff; background-color:#3f1978; border-radius:40px; padding-left: 10px; padding-right: 10px">VALORES</span>
                         </div>
-                        <p style="margin-bottom: 0">Nuestra empresa se fundamenta en sólidos valores que nos definen y guían en
+                        <p style="margin-bottom: 0; padding-right: 10px; margin-top:5%">
+                        Nuestra empresa se fundamenta en sólidos valores que nos definen y guían en
                         cada acción que emprendemos. La pulcritud es el pilar que guía nuestros
                         actuares, asegurando que cada tarea se realice con meticulosidad y precisión.
                         Además, la bondad nos impulsa a hacer nuestro mayor esfuerzo día a día,
