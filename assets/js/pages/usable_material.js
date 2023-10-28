@@ -122,6 +122,28 @@ export function Usable_material(){
             </div>
         </div>
     </div>
+    <div class="row g-0" style="margin-top: 15vh">
+            <div class="col-lg-6 divided-info-left" >
+                <div>
+                    <div style="padding-right:15px">
+                        <div style="display:flex; justify-content:space-between; widht; font-size:2.5rem; color:#ffffff; background-color:#3f1978; border-radius:50px; padding-left: 10px">
+                            <span class="montserrat_bold" style="margin:0; font-size: 3rem; line-height: 3rem">Papeles</span>
+                            <div class="circle_right"></div>
+                        </div>
+                        <p style="margin-bottom: 0; padding-left: 10px; margin-top:5%">
+                        El reciclaje de papel en las plantas recicladoras involucra los siguientes pasos:
+                        palpado para separar las fibras y formar una pasta, tamizado para eliminar elementos no deseados,
+                        eliminación de tinta con jabón y aire a presión,
+                        lavado y espesado para reducir el agua, y finalmente,
+                        secado para obtener una lámina de papel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="/assets/img/PAPEL.png" alt="Descripción de la imagen" class="img-fluid divided-info-img" style="padding-left:15px">
+            </div>
+        </div>
     `
     return $usable_material;
 }

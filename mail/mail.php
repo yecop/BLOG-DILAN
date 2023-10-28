@@ -6,13 +6,13 @@
       $asunto=$_POST['subject'];
       $message=$_POST['message'];
       error_reporting( E_ALL );
-      $from = "notificaciones@pruebas-enlace.shop";
-      $to = "yecop123a@gmail.com";
+      $from = "peticiones@oramarianisesp.org";
+      $to = "asomarianis@gmail.com@gmail.com";
       $subject = $asunto;
       $message = "Saludos, mi nombre es ".$name."\r\n\r\n\r\n\r\n".$message."\r\n\r\n\r\n\r\n"."mis datos de contacto son los siguientes: "."\r\n"."Email: ".$email ;
       $headers = "From:" . $from;
       mail($to,$subject,$message, $headers);
-      header("Location: https://pruebas-enlace.shop/index.html#/PQR");
+      header("Location: https://oramarianisesp.org/#/PQR");
     }
   };
 ?>
