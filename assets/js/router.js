@@ -8,6 +8,8 @@ import { Integrity_services } from "./pages/integrity_services.js";
 import { CCU } from "./pages/ccu.js";
 import { Tons_used } from "./pages/tons_used.js";
 import { PQR } from "./pages/PQR.js";
+import { Slider, sliderActions } from "./components/sider.js";
+import { collageActions, Collage } from "./components/collage.js";
 
 export function Router() {
 
@@ -21,7 +23,11 @@ export function Router() {
     bodyContent.innerHTML = null;
 
     if (!hash || hash === '#/') {
+        bodyContent.appendChild(Slider());
+        sliderActions();
         bodyContent.appendChild(Home());
+        bodyContent.appendChild(Collage());
+        collageActions()
     } else if (hash === '#/quienes-somos') {
         bodyContent.appendChild(About_us());
     } else if (hash === '#/material-aprovechable') {
